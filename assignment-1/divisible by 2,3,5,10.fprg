@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="divisible by 2,3,5,10"/>
+        <attribute name="authors" value="statlab"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-29 11:45:31 PM"/>
+        <attribute name="created" value="c3RhdGxhYjtNODRXVzNQMjQ7MjAyNi0wNy0yOTsxMTowNjo0NyBQTTsyNjMw"/>
+        <attribute name="edited" value="c3RhdGxhYjtNODRXVzNQMjQ7MjAyNi0wNy0yOTsxMTo0NTozMSBQTTsxOzI3MzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <input variable="num"/>
+            <if expression="num%2==0">
+                <then>
+                    <output expression="&quot;divisible by 2&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;not divisible by 2&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="num%3==0">
+                <then>
+                    <output expression="&quot;divisible by 3&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;not divisible by 3&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="num%5==0">
+                <then>
+                    <output expression="&quot;divisible by 5&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;not divisible by 5&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="num%10==0">
+                <then>
+                    <output expression="&quot;divisible by 10&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;not divisible by 10&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

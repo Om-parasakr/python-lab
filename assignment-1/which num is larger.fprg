@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="which num is larger"/>
+        <attribute name="authors" value="statlab"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-30 12:04:30 AM"/>
+        <attribute name="created" value="c3RhdGxhYjtNODRXVzNQMjQ7MjAyNi0wNy0yOTsxMTowNjo0NyBQTTsyNjMw"/>
+        <attribute name="edited" value="c3RhdGxhYjtNODRXVzNQMjQ7MjAyNi0wNy0zMDsxMjowNDozMCBBTTsyOzI3MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <input variable="num3"/>
+            <if expression="num1&gt;num2">
+                <then>
+                    <if expression="num1&gt;num3">
+                        <then>
+                            <output expression="&quot;larger number is num1&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;larger number is num3&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="num2&gt;num3">
+                        <then>
+                            <output expression="&quot;larger number is num2&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;larger number is num3&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
